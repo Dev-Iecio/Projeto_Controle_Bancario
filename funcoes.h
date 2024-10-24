@@ -1,3 +1,10 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+#include <windows.h>
+#include <time.h>
+#include <string.h>
+
 #ifndef FUNCOES_H
 #define FUNCOES_H
 
@@ -37,7 +44,7 @@ typedef struct {
     float v1_saldo;
 }reg_movimentos;
 
-void gotoxy(int x,int y);
+void vaiparaxy(int x,int y);
 
 void tela();
 
