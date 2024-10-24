@@ -20,7 +20,7 @@ float v1_limite;
 int status;
 }reg_contas;
 
-typedef struct tipoitem *tipoApontador_conta;
+typedef struct tipoitem_conta *tipoApontador_conta;
 
 typedef struct tipoitem_conta
 {
@@ -46,11 +46,15 @@ typedef struct {
     float v1_saldo;
 }reg_movimentos;
 
-void vaiparaxy(int x,int y);
+void vaiparaxy(int x, int y);
+
 
 void tela();
 
-void menu_consulta_cotas(tipolista_conta *l);
+//void menu_consulta_contas(tipolista_conta *l);
+
+
+
 
 void menu_contas_bancarias(tipolista_conta *l);
 

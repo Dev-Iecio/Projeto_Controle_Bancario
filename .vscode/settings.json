@@ -61,6 +61,8 @@
     "string.h": "c",
     "windows.h": "c",
     "stdio.h": "c",
-    "time.h": "c"
+    "time.h": "c",
+    "funcoes.h": "c",
+    "stdlib.h": "c"
   }
 }

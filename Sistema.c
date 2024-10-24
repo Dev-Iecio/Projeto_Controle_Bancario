@@ -25,8 +25,8 @@ int main()
     do
     {
         tela();
-        vaiparaxy(30, 3);
-        printf("MENU PRINCIPAL");
+        vaiparaxy(35, 3);
+        printf("||  MENU PRINCIPAL");
         vaiparaxy(30, 12);
         printf("(1) Contas Bancarias");
         vaiparaxy(30, 14);
@@ -38,12 +38,12 @@ int main()
         printf("Digite sua opcao: ");
         scanf("%d", &opc);
 
-        //switch (opc)
-        //{
-       // case 1:
-            //menu_contas_bancarias(&l);
-           // break;
-       // }
+        switch (opc)
+        {
+        case 1:
+            menu_contas_bancarias(&l);
+            break;
+        }
     } while (opc != 3);
     return 0;
 }
