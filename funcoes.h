@@ -29,7 +29,7 @@ typedef struct tipoitem_conta
 
 }tipoitem_conta;
 
-printf("sono");
+
 
 typedef struct
 {
